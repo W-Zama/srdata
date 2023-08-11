@@ -1,4 +1,4 @@
-# srdについて
+# srdataについて
 
 製作者: Wataru Zama
 
