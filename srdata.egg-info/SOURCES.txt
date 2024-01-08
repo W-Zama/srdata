@@ -8,62 +8,11 @@ srdata.egg-info/SOURCES.txt
 srdata.egg-info/dependency_links.txt
 srdata.egg-info/top_level.txt
 srdata/Dataset/.DS_Store
-srdata/Dataset/ds1.csv
-srdata/Dataset/ds2.csv
-srdata/Dataset/ds3.csv
-srdata/Dataset/ds4.csv
-srdata/Dataset/ds5.csv
-srdata/Dataset/ds6.csv
-srdata/Dataset/Cumulative Time to Failure/ds1.dat
-srdata/Dataset/Cumulative Time to Failure/ds10.dat
-srdata/Dataset/Cumulative Time to Failure/ds11.dat
-srdata/Dataset/Cumulative Time to Failure/ds12.dat
-srdata/Dataset/Cumulative Time to Failure/ds13.dat
-srdata/Dataset/Cumulative Time to Failure/ds14.dat
-srdata/Dataset/Cumulative Time to Failure/ds15.dat
-srdata/Dataset/Cumulative Time to Failure/ds16.dat
-srdata/Dataset/Cumulative Time to Failure/ds17.dat
-srdata/Dataset/Cumulative Time to Failure/ds18.dat
-srdata/Dataset/Cumulative Time to Failure/ds19.dat
-srdata/Dataset/Cumulative Time to Failure/ds2.dat
-srdata/Dataset/Cumulative Time to Failure/ds20.dat
-srdata/Dataset/Cumulative Time to Failure/ds21.dat
-srdata/Dataset/Cumulative Time to Failure/ds22.dat
-srdata/Dataset/Cumulative Time to Failure/ds23.dat
-srdata/Dataset/Cumulative Time to Failure/ds24.dat
-srdata/Dataset/Cumulative Time to Failure/ds25.dat
-srdata/Dataset/Cumulative Time to Failure/ds3.dat
-srdata/Dataset/Cumulative Time to Failure/ds4.dat
-srdata/Dataset/Cumulative Time to Failure/ds5.dat
-srdata/Dataset/Cumulative Time to Failure/ds6.dat
-srdata/Dataset/Cumulative Time to Failure/ds7.dat
-srdata/Dataset/Cumulative Time to Failure/ds8.dat
-srdata/Dataset/Cumulative Time to Failure/ds9.dat
-srdata/Dataset/Time to Failure/ds1.dat
-srdata/Dataset/Time to Failure/ds10.dat
-srdata/Dataset/Time to Failure/ds11.dat
-srdata/Dataset/Time to Failure/ds12.dat
-srdata/Dataset/Time to Failure/ds13.dat
-srdata/Dataset/Time to Failure/ds14.dat
-srdata/Dataset/Time to Failure/ds15.dat
-srdata/Dataset/Time to Failure/ds16.dat
-srdata/Dataset/Time to Failure/ds17.dat
-srdata/Dataset/Time to Failure/ds18.dat
-srdata/Dataset/Time to Failure/ds19.dat
-srdata/Dataset/Time to Failure/ds2.dat
-srdata/Dataset/Time to Failure/ds20.dat
-srdata/Dataset/Time to Failure/ds21.dat
-srdata/Dataset/Time to Failure/ds22.dat
-srdata/Dataset/Time to Failure/ds23.dat
-srdata/Dataset/Time to Failure/ds24.dat
-srdata/Dataset/Time to Failure/ds25.dat
-srdata/Dataset/Time to Failure/ds3.dat
-srdata/Dataset/Time to Failure/ds4.dat
-srdata/Dataset/Time to Failure/ds5.dat
-srdata/Dataset/Time to Failure/ds6.dat
-srdata/Dataset/Time to Failure/ds7.dat
-srdata/Dataset/Time to Failure/ds8.dat
-srdata/Dataset/Time to Failure/ds9.dat
+srdata/Dataset/Lyu/J1.csv
+srdata/Dataset/Lyu/J2.csv
+srdata/Dataset/Lyu/J3.csv
+srdata/Dataset/Lyu/J4.csv
+srdata/Dataset/Lyu/J5.csv
 srdata/Dataset/musa/ss1a.csv
 srdata/Dataset/musa/ss1ag.csv
 srdata/Dataset/musa/ss1b.csv
