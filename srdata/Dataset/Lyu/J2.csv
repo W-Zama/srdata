@@ -1,4 +1,4 @@
-test_time,fault_number
+time_interval,number_of_failures
 1,0
 2,0
 3,0
