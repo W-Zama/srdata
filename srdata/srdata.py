@@ -24,7 +24,7 @@ def get_dataset(file_names):
     else:
         return datasets
 
-def display_dataset_tree(directory_path=package_name + '/' + 'Dataset', indent='', is_first_call=True):
+def display_dataset_tree(directory_path=os.path.dirname(os.path.abspath(__file__)) + '/' + 'Dataset', indent='', is_first_call=True):
     # 最初の呼び出しは"Dataset"と出力する
     if is_first_call:
         print('Dataset')
