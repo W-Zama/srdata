@@ -23,8 +23,8 @@ def get_dataset(file_names):
         return datasets[0]
     else:
         return datasets
-    
-def get_dataset_tree(directory_path=package_name + '/' + 'Dataset', indent='', is_first_call=True):
+
+def display_dataset_tree(directory_path=os.path.dirname(os.path.abspath(__file__)) + '/' + 'Dataset', indent='', is_first_call=True):
     # 最初の呼び出しは"Dataset"と出力する
     if is_first_call:
         print('Dataset')
@@ -35,14 +35,14 @@ def get_dataset_tree(directory_path=package_name + '/' + 'Dataset', indent='', i
 
     for index, item in enumerate(items):
         item_path = os.path.join(directory_path, item)
-        
+
         if os.path.isdir(item_path):
             if index == len(items) - 1:
                 print(f"{indent}└─ {item}")
-                get_dataset_tree(item_path, indent + "   ", False)
+                display_dataset_tree(item_path, indent + "   ", False)
             else:
                 print(f"{indent}├─ {item}")
-                get_dataset_tree(item_path, indent + "│  ", False)
+                display_dataset_tree(item_path, indent + "│  ", False)
         else:
             if index == len(items) - 1:
                 print(f"{indent}└─ {item}")
