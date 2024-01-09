@@ -33,7 +33,9 @@ pip show srdata
 import srdata
 ```
 
-## 単一のデータセットを取得する
+## データセットを取得する
+### srdata.get_dataset(file_names)
+#### 単一データセットを取得する場合
 ```python
 data_single = srdata.get_dataset("Lyu/J1.csv")
 print(data_single)
@@ -60,7 +62,7 @@ print(data_single)
 ```
 </details>
 
-## 複数のデータセットを取得する
+#### 複数のデータセットを取得する場合
 ```python
 data_multiple = srdata.get_dataset(["Lyu/J1.csv", "Lyu/J2.csv"])
 print(data_multiple[0])
@@ -102,7 +104,8 @@ print(data_multiple[1])
 </details>
 
 
-# データセットのツリー構造を表示する
+## データセットのツリー構造を表示する
+### display_dataset_tree()
 
 ```python
 srdata.display_dataset_tree()
@@ -216,3 +219,13 @@ Dataset
    └─ tohma.csv
 ```
 </details>
+
+## グラフを表示する
+### show_graph(file_name, step=False, grid=True, **kwargs)
+**\*\*kwargs**は**matplotlib.pyplot.plot**に指定できるものと同じ．
+
+## 累積和グラフを表示する
+### show_cum_graph(file_name, step=False, grid=True, **kwargs)
+**\*\*kwargs**は**matplotlib.pyplot.plot**に指定できるものと同じ．
+
+
