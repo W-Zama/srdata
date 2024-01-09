@@ -2,7 +2,7 @@ from setuptools import setup, find_packages
 
 setup(
   name='srdata',
-  version='1.0.0',
+  version='1.1.0',
   author="Wataru Zama",
   packages=find_packages(),
   include_package_data=True

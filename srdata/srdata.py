@@ -68,7 +68,7 @@ def show_graph(file_name, step=False, grid=True, **kwargs):
 def show_cum_graph(file_name, step=False, grid=True, **kwargs):
     data = get_dataset(file_name)
     cum_data = data # copy
-    new_row = pd.DataFrame({data.columns[0]: [0]}, index=[0]) # 時刻0で発見数0
+    new_row = pd.DataFrame({data.columns[0]: [0]}, pd.Index([0], name=data.index.name)) # 時刻0で発見数0
     cum_data = pd.concat([new_row, cum_data], axis=0)
     cum_data.iloc[:, 0] = cum_data.iloc[:, 0].cumsum()  # 累積和を計算
 
